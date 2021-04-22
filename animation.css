@@ -1,0 +1,228 @@
+*{margin: 0px; padding: 0px;}
+img{max-width: 100%;}
+span {
+  margin: 13px 8px 13px 93px;
+  position: fixed;
+  width: 128px;;
+}
+  
+body{font-family: arial;font-size: 15px;line-height: 25px;}
+#perimary_munu{
+    list-style: none;
+    overflow: hidden;
+    width: 700px;
+    float: right;
+    margin: -3px 39px 2px 7px;
+    }
+#perimary_munu li{float: inherit;position: relative;z-index: 1;}
+
+#perimary_munu li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20PX 29px;
+    display: block;
+    transition: 1s;
+    margin-left: -15px;
+    color: #333333;
+    }
+     
+
+
+
+
+#perimary_munu li a:hover{background: #00374c;
+    color: #fff; transform:scale(1.1)}
+
+     #mainNav{
+        width: 100%;
+       
+        border-bottom: 2px solid #bbbbbbf2;
+        margin-bottom: -42px;
+        z-index: 1;
+        }
+
+ 
+     #munuContainer{
+  
+    }
+
+
+
+    #logodiv{
+        width: 81px;
+        max-width: 100%;
+        margin: 0px;
+        font-size: 45px;
+        margin: 12px 11px 12px 14px;}
+
+        #mainNav, #logodiv{
+            display: inline-block;
+            overflow: hidden;
+            margin-top: -2px;
+            float: left;
+            position: absolute;
+            margin-left: -141px;
+            padding-left: 93px;
+            font-family: arial;
+            background: orange;
+            position: fixed;
+            }
+
+
+        #sub_menu{
+            list-style: none;
+            background: #f1f1f1;
+            position: fixed;
+            top: 74px;
+            height: 260px;
+            line-height: 1.5;
+            right: 97px;
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: all 0.8s;
+            width: 260px; overflow: hidden;
+            }
+
+        #sub_menu li{transition: all 1s;}
+        #sub_menu li:hover a{padding-left: 70px;}
+
+        
+#perimary_munu li:hover #sub_menu{transform:  scaleY(1);background: orange; }
+
+
+
+
+div#slider {
+    overflow: hidden;
+    width: 108%;
+    max-width: 1405px;
+    max-height: 660px;
+    height: 59%;
+    margin-top: -49px;
+    margin-left: -53px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div#slider div {
+    position: relative;
+   
+   width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+   
+
+    
+   animation: 20s slider infinite;
+  }
+  div#slider div img {
+    width: 20%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @keyframes slider {
+    0% {
+      left: 0%;
+    }
+    20% {
+      left: 0%;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+  
+  }
+
+
+  #footerdiv{
+  width: 385px;
+  height: 291px;
+  padding-top: 30px;
+  color: orange;
+  padding: 19px -1px;
+  }
+
+
+  #footcontroal h2{
+    position: relative;
+    color: orange;
+    text-align: center;
+    font-family: arial;
+    padding: 16px;
+    border-bottom: 1px solid white;
+    }
+
+#footerdiv p{color: #fbfbfb;margin: 12px 3px 14px 25px;line-height: 2;font-family: auto;font-size: 16px;/* height: 212px; */padding: 11px 12px;padding: 25px;}
+  #footcontroal{background: #0e0e0e;display: inline-flex;width: 114%;max-width: 108%;margin-left: -52px;margin-top: -21px;}
+
+.spandiv{color: white;}
+
+
+
+#servicelink{margin-top: 0px;}
+
+#servicelink li {
+  margin-top: 34px;
+  margin-left: 74px;
+  text-decoration: dashed;
+  list-style: none;
+  width: 64%;
+  height: 0px;
+  font-weight: bold;
+  border-top: 1px solid #afafaf52;
+  }
+
+  #servicelink li:hover a{text-decoration: underline; color: rgb(204, 204, 204);}
+
+  #servicelink li a{color: #e0e0e0;text-decoration: none;}
+
+  #subsceibebottom{color: black;
+    width: 185px;
+    padding: 26px;
+    font-size: 52px;
+    margin-left: 58px;}
+
+#singlebottom{
+  font-size: 17px;
+  background: #000000;
+  color: white;}
+
+  #singlebottom:hover{background: orange; color: white;}
+
+  #SOCALDIV{
+    list-style: none;
+    font-family: arial;
+    padding: 29px;
+    margin-left: 80px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#SOCALDIV li a{text-decoration: none;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 2;}
+
+
+  #SOCALDIV li:hover a{background: transparent; color: rgb(180, 178, 178);}
+
+
+
+  #subsceibebottom input{font-size: 17px;width: 178px;}
